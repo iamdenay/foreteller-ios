@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233373A321C11483000B9B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A221C11483000B9B8D /* AppDelegate.swift */; };
+		233373A521C11483000B9B8D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A421C11483000B9B8D /* RootViewController.swift */; };
+		233373A721C11483000B9B8D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A621C11483000B9B8D /* DataViewController.swift */; };
+		233373A921C11483000B9B8D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A821C11483000B9B8D /* ModelController.swift */; };
+		233373AC21C11483000B9B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233373AA21C11483000B9B8D /* Main.storyboard */; };
+		233373AE21C11486000B9B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233373AD21C11486000B9B8D /* Assets.xcassets */; };
+		233373B121C11486000B9B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233373AF21C11486000B9B8D /* LaunchScreen.storyboard */; };
+		233373BC21C11486000B9B8D /* ForetellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373BB21C11486000B9B8D /* ForetellerTests.swift */; };
+		233373C721C11486000B9B8D /* ForetellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373C621C11486000B9B8D /* ForetellerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233373B821C11486000B9B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2333739721C11483000B9B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2333739E21C11483000B9B8D;
+			remoteInfo = Foreteller;
+		};
+		233373C321C11486000B9B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2333739721C11483000B9B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2333739E21C11483000B9B8D;
+			remoteInfo = Foreteller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2333739F21C11483000B9B8D /* Foreteller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foreteller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233373A221C11483000B9B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233373A421C11483000B9B8D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		233373A621C11483000B9B8D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		233373A821C11483000B9B8D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		233373AB21C11483000B9B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233373AD21C11486000B9B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233373B021C11486000B9B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233373B221C11486000B9B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233373B721C11486000B9B8D /* ForetellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForetellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233373BB21C11486000B9B8D /* ForetellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForetellerTests.swift; sourceTree = "<group>"; };
+		233373BD21C11486000B9B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233373C221C11486000B9B8D /* ForetellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForetellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233373C621C11486000B9B8D /* ForetellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForetellerUITests.swift; sourceTree = "<group>"; };
+		233373C821C11486000B9B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2333739C21C11483000B9B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373B421C11486000B9B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373BF21C11486000B9B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2333739621C11483000B9B8D = {
+			isa = PBXGroup;
+			children = (
+				233373A121C11483000B9B8D /* Foreteller */,
+				233373BA21C11486000B9B8D /* ForetellerTests */,
+				233373C521C11486000B9B8D /* ForetellerUITests */,
+				233373A021C11483000B9B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233373A021C11483000B9B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2333739F21C11483000B9B8D /* Foreteller.app */,
+				233373B721C11486000B9B8D /* ForetellerTests.xctest */,
+				233373C221C11486000B9B8D /* ForetellerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233373A121C11483000B9B8D /* Foreteller */ = {
+			isa = PBXGroup;
+			children = (
+				233373A221C11483000B9B8D /* AppDelegate.swift */,
+				233373A421C11483000B9B8D /* RootViewController.swift */,
+				233373A621C11483000B9B8D /* DataViewController.swift */,
+				233373A821C11483000B9B8D /* ModelController.swift */,
+				233373AA21C11483000B9B8D /* Main.storyboard */,
+				233373AD21C11486000B9B8D /* Assets.xcassets */,
+				233373AF21C11486000B9B8D /* LaunchScreen.storyboard */,
+				233373B221C11486000B9B8D /* Info.plist */,
+			);
+			path = Foreteller;
+			sourceTree = "<group>";
+		};
+		233373BA21C11486000B9B8D /* ForetellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				233373BB21C11486000B9B8D /* ForetellerTests.swift */,
+				233373BD21C11486000B9B8D /* Info.plist */,
+			);
+			path = ForetellerTests;
+			sourceTree = "<group>";
+		};
+		233373C521C11486000B9B8D /* ForetellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233373C621C11486000B9B8D /* ForetellerUITests.swift */,
+				233373C821C11486000B9B8D /* Info.plist */,
+			);
+			path = ForetellerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2333739E21C11483000B9B8D /* Foreteller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233373CB21C11486000B9B8D /* Build configuration list for PBXNativeTarget "Foreteller" */;
+			buildPhases = (
+				2333739B21C11483000B9B8D /* Sources */,
+				2333739C21C11483000B9B8D /* Frameworks */,
+				2333739D21C11483000B9B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foreteller;
+			productName = Foreteller;
+			productReference = 2333739F21C11483000B9B8D /* Foreteller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233373B621C11486000B9B8D /* ForetellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233373CE21C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerTests" */;
+			buildPhases = (
+				233373B321C11486000B9B8D /* Sources */,
+				233373B421C11486000B9B8D /* Frameworks */,
+				233373B521C11486000B9B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233373B921C11486000B9B8D /* PBXTargetDependency */,
+			);
+			name = ForetellerTests;
+			productName = ForetellerTests;
+			productReference = 233373B721C11486000B9B8D /* ForetellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		233373C121C11486000B9B8D /* ForetellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233373D121C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerUITests" */;
+			buildPhases = (
+				233373BE21C11486000B9B8D /* Sources */,
+				233373BF21C11486000B9B8D /* Frameworks */,
+				233373C021C11486000B9B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233373C421C11486000B9B8D /* PBXTargetDependency */,
+			);
+			name = ForetellerUITests;
+			productName = ForetellerUITests;
+			productReference = 233373C221C11486000B9B8D /* ForetellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2333739721C11483000B9B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "IcyFlame Studios";
+				TargetAttributes = {
+					2333739E21C11483000B9B8D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					233373B621C11486000B9B8D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2333739E21C11483000B9B8D;
+					};
+					233373C121C11486000B9B8D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2333739E21C11483000B9B8D;
+					};
+				};
+			};
+			buildConfigurationList = 2333739A21C11483000B9B8D /* Build configuration list for PBXProject "Foreteller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2333739621C11483000B9B8D;
+			productRefGroup = 233373A021C11483000B9B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2333739E21C11483000B9B8D /* Foreteller */,
+				233373B621C11486000B9B8D /* ForetellerTests */,
+				233373C121C11486000B9B8D /* ForetellerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2333739D21C11483000B9B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233373B121C11486000B9B8D /* LaunchScreen.storyboard in Resources */,
+				233373AE21C11486000B9B8D /* Assets.xcassets in Resources */,
+				233373AC21C11483000B9B8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373B521C11486000B9B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373C021C11486000B9B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2333739B21C11483000B9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233373A521C11483000B9B8D /* RootViewController.swift in Sources */,
+				233373A921C11483000B9B8D /* ModelController.swift in Sources */,
+				233373A721C11483000B9B8D /* DataViewController.swift in Sources */,
+				233373A321C11483000B9B8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373B321C11486000B9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233373BC21C11486000B9B8D /* ForetellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233373BE21C11486000B9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233373C721C11486000B9B8D /* ForetellerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233373B921C11486000B9B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2333739E21C11483000B9B8D /* Foreteller */;
+			targetProxy = 233373B821C11486000B9B8D /* PBXContainerItemProxy */;
+		};
+		233373C421C11486000B9B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2333739E21C11483000B9B8D /* Foreteller */;
+			targetProxy = 233373C321C11486000B9B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233373AA21C11483000B9B8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233373AB21C11483000B9B8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233373AF21C11486000B9B8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233373B021C11486000B9B8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233373C921C11486000B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233373CA21C11486000B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233373CC21C11486000B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = Foreteller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Foreteller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233373CD21C11486000B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = Foreteller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Foreteller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233373CF21C11486000B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = ForetellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.ForetellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foreteller.app/Foreteller";
+			};
+			name = Debug;
+		};
+		233373D021C11486000B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = ForetellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.ForetellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foreteller.app/Foreteller";
+			};
+			name = Release;
+		};
+		233373D221C11486000B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = ForetellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.ForetellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foreteller;
+			};
+			name = Debug;
+		};
+		233373D321C11486000B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = ForetellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.ForetellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foreteller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2333739A21C11483000B9B8D /* Build configuration list for PBXProject "Foreteller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233373C921C11486000B9B8D /* Debug */,
+				233373CA21C11486000B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233373CB21C11486000B9B8D /* Build configuration list for PBXNativeTarget "Foreteller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233373CC21C11486000B9B8D /* Debug */,
+				233373CD21C11486000B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233373CE21C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233373CF21C11486000B9B8D /* Debug */,
+				233373D021C11486000B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233373D121C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233373D221C11486000B9B8D /* Debug */,
+				233373D321C11486000B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2333739721C11483000B9B8D /* Project object */;
+}
