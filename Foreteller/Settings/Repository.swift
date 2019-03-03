@@ -22,10 +22,10 @@ class Repository {
         ]
         
         Alamofire.request(resUrl, parameters: parameters).responseObject { (response: DataResponse<Result>) in
-            print("Request: \(String(describing: response.request!))")
-            print("Response: \(String(describing: response.response!))")
-            print("Error: \(String(describing: response.error))")
-            print("Result: \(response.result)")
+//            print("Request: \(String(describing: response.request!))")
+//            print("Response: \(String(describing: response.response!))")
+//            print("Error: \(String(describing: response.error))")
+//            print("Result: \(response.result)")
             
             if let res = response.result.value {
                 completion(res, response.error)

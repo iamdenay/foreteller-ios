@@ -17,35 +17,20 @@ class GradientView: UIView {
         return CAGradientLayer.self
     }
     
-    lazy var textLabel = UILabel().then {
-        $0.text = "CITY NAME"
-        $0.textColor = .white
-        $0.font = UIFont.systemFont(ofSize: 24, weight: .bold)
-        $0.numberOfLines = 0
-        $0.textAlignment = .left
-    }
-    
-    required init(colorFirst: UIColor, colorSecond: UIColor){
+    required init(colors: [CGColor]){
         super.init(frame: CGRect.zero)
-        setColors(colorFirst: colorFirst, colorSecond: colorSecond)
-        addSubviews(textLabel)
-        textLabel.easy.layout(
-            Center()
-        )
+        setColors(colors: colors)
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setColors(colorFirst: UIColor, colorSecond: UIColor){
+    func setColors(colors: [CGColor]){
         layer0 = self.layer as? CAGradientLayer
-        layer0.colors = [
-            colorFirst.cgColor,
-            colorSecond.cgColor
-        ]
+        layer0.colors = colors
         layer0.locations = [0, 1]
-        layer0.startPoint = CGPoint(x: 0.5, y: 0.25)
-        layer0.endPoint = CGPoint(x: 0.5, y: 0.75)
+        layer0.startPoint = CGPoint(x: 0.5, y: 0)
+        layer0.endPoint = CGPoint(x: 0.5, y: 1)
     }
 }

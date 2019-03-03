@@ -1,0 +1,6 @@
+framework module Pods_ForetellerTests {
+  umbrella header "Pods-ForetellerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4ED9D654AC78416ED88BAB /* Pods_ForetellerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0522844921D31055153AA655 /* Pods_ForetellerTests.framework */; };
+		230E18FA21E9669400E9145A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E18F921E9669400E9145A /* SearchController.swift */; };
+		230E18FC21E9676200E9145A /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E18FB21E9676200E9145A /* CityTableViewCell.swift */; };
+		2315BC7B21E8C8C500087FAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC7A21E8C8C500087FAB /* GradientView.swift */; };
+		2315BC7D21E8EA3300087FAB /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2315BC7C21E8EA3300087FAB /* Fonts */; };
+		2315BC8021E8EE0100087FAB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC7F21E8EE0100087FAB /* Globals.swift */; };
+		2315BC8821E9385B00087FAB /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC8721E9385B00087FAB /* ForecastTableViewCell.swift */; };
+		2315BC8A21E93BCC00087FAB /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC8921E93BCC00087FAB /* Forecast.swift */; };
+		2315BC8C21E93E5B00087FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2315BC8B21E93E5B00087FAB /* Assets.xcassets */; };
+		2315BC8E21E9417B00087FAB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC8D21E9417B00087FAB /* Repository.swift */; };
+		2315BC9021E9453000087FAB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC8F21E9453000087FAB /* City.swift */; };
+		2315BC9221E9453800087FAB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315BC9121E9453800087FAB /* Result.swift */; };
 		233373A321C11483000B9B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A221C11483000B9B8D /* AppDelegate.swift */; };
 		233373A521C11483000B9B8D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A421C11483000B9B8D /* RootViewController.swift */; };
-		233373A721C11483000B9B8D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A621C11483000B9B8D /* DataViewController.swift */; };
-		233373A921C11483000B9B8D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A821C11483000B9B8D /* ModelController.swift */; };
-		233373AC21C11483000B9B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233373AA21C11483000B9B8D /* Main.storyboard */; };
-		233373AE21C11486000B9B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233373AD21C11486000B9B8D /* Assets.xcassets */; };
+		233373A721C11483000B9B8D /* CityPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373A621C11483000B9B8D /* CityPageViewController.swift */; };
 		233373B121C11486000B9B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233373AF21C11486000B9B8D /* LaunchScreen.storyboard */; };
 		233373BC21C11486000B9B8D /* ForetellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373BB21C11486000B9B8D /* ForetellerTests.swift */; };
 		233373C721C11486000B9B8D /* ForetellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233373C621C11486000B9B8D /* ForetellerUITests.swift */; };
+		233620A121ED4868001F189C /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233620A021ED4868001F189C /* LocationHelper.swift */; };
+		233620A321EE36A7001F189C /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233620A221EE36A7001F189C /* EmptyViewController.swift */; };
+		239D2FBA2210552600A1CE5F /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D2FB92210552600A1CE5F /* CitiesTableViewController.swift */; };
+		239D2FBC221566DE00A1CE5F /* NoInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D2FBB221566DE00A1CE5F /* NoInternetViewController.swift */; };
+		2DFA515B93EC8D38D3B2F1E2 /* Pods_ForetellerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B86136988F8AD6F9A4D9CF /* Pods_ForetellerUITests.framework */; };
+		B41F6E112C5A384627542AC2 /* Pods_Foreteller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D11362C69029AB14D1CCE67 /* Pods_Foreteller.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +51,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0522844921D31055153AA655 /* Pods_ForetellerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForetellerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1398F67047900B626DA58CE9 /* Pods-ForetellerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForetellerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForetellerTests/Pods-ForetellerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		230E18F921E9669400E9145A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		230E18FB21E9676200E9145A /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		2315BC7A21E8C8C500087FAB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2315BC7C21E8EA3300087FAB /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		2315BC7F21E8EE0100087FAB /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		2315BC8721E9385B00087FAB /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		2315BC8921E93BCC00087FAB /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		2315BC8B21E93E5B00087FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2315BC8D21E9417B00087FAB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = Foreteller/Settings/Repository.swift; sourceTree = SOURCE_ROOT; };
+		2315BC8F21E9453000087FAB /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		2315BC9121E9453800087FAB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		2333739F21C11483000B9B8D /* Foreteller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foreteller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233373A221C11483000B9B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233373A421C11483000B9B8D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		233373A621C11483000B9B8D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		233373A821C11483000B9B8D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		233373AB21C11483000B9B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		233373AD21C11486000B9B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233373A621C11483000B9B8D /* CityPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPageViewController.swift; sourceTree = "<group>"; };
 		233373B021C11486000B9B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233373B221C11486000B9B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233373B721C11486000B9B8D /* ForetellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForetellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +76,17 @@
 		233373C221C11486000B9B8D /* ForetellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForetellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233373C621C11486000B9B8D /* ForetellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForetellerUITests.swift; sourceTree = "<group>"; };
 		233373C821C11486000B9B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233620A021ED4868001F189C /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		233620A221EE36A7001F189C /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		239D2FB92210552600A1CE5F /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		239D2FBB221566DE00A1CE5F /* NoInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetViewController.swift; sourceTree = "<group>"; };
+		47C367FA48190A356B278FD0 /* Pods-Foreteller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foreteller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller.release.xcconfig"; sourceTree = "<group>"; };
+		633A9CBCB8C4A147AE44B75B /* Pods-ForetellerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForetellerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForetellerTests/Pods-ForetellerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D11362C69029AB14D1CCE67 /* Pods_Foreteller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foreteller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841561D2B429DC31E8B63B4E /* Pods-ForetellerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForetellerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForetellerUITests/Pods-ForetellerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84723F5C07AB6C0CF69D2A85 /* Pods-Foreteller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foreteller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B86136988F8AD6F9A4D9CF /* Pods_ForetellerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForetellerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C64EAE1FECA8097C3838C9 /* Pods-ForetellerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForetellerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForetellerUITests/Pods-ForetellerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41F6E112C5A384627542AC2 /* Pods_Foreteller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4ED9D654AC78416ED88BAB /* Pods_ForetellerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +110,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFA515B93EC8D38D3B2F1E2 /* Pods_ForetellerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2315BC7E21E8EDEC00087FAB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2315BC7F21E8EE0100087FAB /* Globals.swift */,
+				2315BC8D21E9417B00087FAB /* Repository.swift */,
+				233620A021ED4868001F189C /* LocationHelper.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2315BC8121E8EE1300087FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2315BC8921E93BCC00087FAB /* Forecast.swift */,
+				2315BC8F21E9453000087FAB /* City.swift */,
+				2315BC9121E9453800087FAB /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2315BC8221E8EE1A00087FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2315BC7A21E8C8C500087FAB /* GradientView.swift */,
+				2315BC8721E9385B00087FAB /* ForecastTableViewCell.swift */,
+				230E18FB21E9676200E9145A /* CityTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2315BC8321E8EE1F00087FAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				233373A421C11483000B9B8D /* RootViewController.swift */,
+				233373A621C11483000B9B8D /* CityPageViewController.swift */,
+				230E18F921E9669400E9145A /* SearchController.swift */,
+				233620A221EE36A7001F189C /* EmptyViewController.swift */,
+				239D2FB92210552600A1CE5F /* CitiesTableViewController.swift */,
+				239D2FBB221566DE00A1CE5F /* NoInternetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		2333739621C11483000B9B8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				233373BA21C11486000B9B8D /* ForetellerTests */,
 				233373C521C11486000B9B8D /* ForetellerUITests */,
 				233373A021C11483000B9B8D /* Products */,
+				DBA96CD1B527489DEA8F6899 /* Pods */,
+				FFF5FF07C0B87D91114B806F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +185,15 @@
 		233373A121C11483000B9B8D /* Foreteller */ = {
 			isa = PBXGroup;
 			children = (
+				2315BC7E21E8EDEC00087FAB /* Settings */,
+				2315BC8121E8EE1300087FAB /* Models */,
+				2315BC8321E8EE1F00087FAB /* Controllers */,
+				2315BC8221E8EE1A00087FAB /* Views */,
 				233373A221C11483000B9B8D /* AppDelegate.swift */,
-				233373A421C11483000B9B8D /* RootViewController.swift */,
-				233373A621C11483000B9B8D /* DataViewController.swift */,
-				233373A821C11483000B9B8D /* ModelController.swift */,
-				233373AA21C11483000B9B8D /* Main.storyboard */,
-				233373AD21C11486000B9B8D /* Assets.xcassets */,
 				233373AF21C11486000B9B8D /* LaunchScreen.storyboard */,
 				233373B221C11486000B9B8D /* Info.plist */,
+				2315BC8B21E93E5B00087FAB /* Assets.xcassets */,
+				2315BC7C21E8EA3300087FAB /* Fonts */,
 			);
 			path = Foreteller;
 			sourceTree = "<group>";
@@ -131,6 +216,29 @@
 			path = ForetellerUITests;
 			sourceTree = "<group>";
 		};
+		DBA96CD1B527489DEA8F6899 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84723F5C07AB6C0CF69D2A85 /* Pods-Foreteller.debug.xcconfig */,
+				47C367FA48190A356B278FD0 /* Pods-Foreteller.release.xcconfig */,
+				1398F67047900B626DA58CE9 /* Pods-ForetellerTests.debug.xcconfig */,
+				633A9CBCB8C4A147AE44B75B /* Pods-ForetellerTests.release.xcconfig */,
+				B5C64EAE1FECA8097C3838C9 /* Pods-ForetellerUITests.debug.xcconfig */,
+				841561D2B429DC31E8B63B4E /* Pods-ForetellerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFF5FF07C0B87D91114B806F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D11362C69029AB14D1CCE67 /* Pods_Foreteller.framework */,
+				0522844921D31055153AA655 /* Pods_ForetellerTests.framework */,
+				A0B86136988F8AD6F9A4D9CF /* Pods_ForetellerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233373CB21C11486000B9B8D /* Build configuration list for PBXNativeTarget "Foreteller" */;
 			buildPhases = (
+				3576B1E72F585E66B255372C /* [CP] Check Pods Manifest.lock */,
 				2333739B21C11483000B9B8D /* Sources */,
 				2333739C21C11483000B9B8D /* Frameworks */,
 				2333739D21C11483000B9B8D /* Resources */,
+				F72FF91F8B1625682657FD4D /* [CP] Embed Pods Frameworks */,
+				62390CFEC6A8BEFDEACB6966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233373CE21C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerTests" */;
 			buildPhases = (
+				99B454C17460953F69316FAD /* [CP] Check Pods Manifest.lock */,
 				233373B321C11486000B9B8D /* Sources */,
 				233373B421C11486000B9B8D /* Frameworks */,
 				233373B521C11486000B9B8D /* Resources */,
@@ -173,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233373D121C11486000B9B8D /* Build configuration list for PBXNativeTarget "ForetellerUITests" */;
 			buildPhases = (
+				FC6370BB8D20DE413D9E9C08 /* [CP] Check Pods Manifest.lock */,
 				233373BE21C11486000B9B8D /* Sources */,
 				233373BF21C11486000B9B8D /* Frameworks */,
 				233373C021C11486000B9B8D /* Resources */,
@@ -236,8 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				233373B121C11486000B9B8D /* LaunchScreen.storyboard in Resources */,
-				233373AE21C11486000B9B8D /* Assets.xcassets in Resources */,
-				233373AC21C11483000B9B8D /* Main.storyboard in Resources */,
+				2315BC8C21E93E5B00087FAB /* Assets.xcassets in Resources */,
+				2315BC7D21E8EA3300087FAB /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +370,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3576B1E72F585E66B255372C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foreteller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62390CFEC6A8BEFDEACB6966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B454C17460953F69316FAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForetellerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72FF91F8B1625682657FD4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Sugar/Sugar.framework",
+				"${BUILT_PRODUCTS_DIR}/Tactile/Tactile.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sugar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tactile.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foreteller/Pods-Foreteller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6370BB8D20DE413D9E9C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForetellerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2333739B21C11483000B9B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2315BC8821E9385B00087FAB /* ForecastTableViewCell.swift in Sources */,
 				233373A521C11483000B9B8D /* RootViewController.swift in Sources */,
-				233373A921C11483000B9B8D /* ModelController.swift in Sources */,
-				233373A721C11483000B9B8D /* DataViewController.swift in Sources */,
+				2315BC9021E9453000087FAB /* City.swift in Sources */,
+				2315BC8A21E93BCC00087FAB /* Forecast.swift in Sources */,
+				2315BC8E21E9417B00087FAB /* Repository.swift in Sources */,
+				233373A721C11483000B9B8D /* CityPageViewController.swift in Sources */,
+				230E18FC21E9676200E9145A /* CityTableViewCell.swift in Sources */,
+				233620A121ED4868001F189C /* LocationHelper.swift in Sources */,
+				2315BC9221E9453800087FAB /* Result.swift in Sources */,
+				2315BC7B21E8C8C500087FAB /* GradientView.swift in Sources */,
+				230E18FA21E9669400E9145A /* SearchController.swift in Sources */,
+				239D2FBA2210552600A1CE5F /* CitiesTableViewController.swift in Sources */,
+				2315BC8021E8EE0100087FAB /* Globals.swift in Sources */,
+				233620A321EE36A7001F189C /* EmptyViewController.swift in Sources */,
+				239D2FBC221566DE00A1CE5F /* NoInternetViewController.swift in Sources */,
 				233373A321C11483000B9B8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +563,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		233373AA21C11483000B9B8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				233373AB21C11483000B9B8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		233373AF21C11486000B9B8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +692,7 @@
 		};
 		233373CC21C11486000B9B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84723F5C07AB6C0CF69D2A85 /* Pods-Foreteller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,15 +702,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Foreteller;
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.foreteller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		233373CD21C11486000B9B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C367FA48190A356B278FD0 /* Pods-Foreteller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,15 +721,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Foreteller;
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.foreteller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		233373CF21C11486000B9B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1398F67047900B626DA58CE9 /* Pods-ForetellerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +752,7 @@
 		};
 		233373D021C11486000B9B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633A9CBCB8C4A147AE44B75B /* Pods-ForetellerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +774,7 @@
 		};
 		233373D221C11486000B9B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C64EAE1FECA8097C3838C9 /* Pods-ForetellerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +795,7 @@
 		};
 		233373D321C11486000B9B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841561D2B429DC31E8B63B4E /* Pods-ForetellerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
